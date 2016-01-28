@@ -1,0 +1,66 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  color: #252525;
+  text-shadow: 0px 2px 35px rgba(100,100,100,0.9);
+}
+
+p {
+  text-shadow: none;
+  font-size: 1rem;
+  line-height:1.65;
+  padding-bottom:1rem;
+}
+
+a {
+  color: #0c6492;
+}
+
+a:hover {
+    color: #187db1;
+}
+
+select {
+    font-size: 1.5rem;
+}
+
+.notes {
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 125px rgba(0,0,0,0.25);
+  padding: 1em;
+
+}
+
+.notes h3 {
+    font-size: calc(1.5rem - 5%);
+}
+
+.notes h4 {
+    font-size: calc(1.2rem - 5%);
+}
+
+.notes p {
+    font-size: calc(1rem - 10%);
+    width: 50%;
+    margin: auto;
+}
+
+.site-wrapper {
+    background-image: url("../img/iphone.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: 2% 100%;
+}
+
+.myfooter {
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 0 125px rgba(0,0,0,0.25);
+  color: #252525;
+}
+
+.navbar-inverse {
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+}
