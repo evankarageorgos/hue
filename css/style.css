@@ -16,12 +16,14 @@ p {
 
 a {
   color: #0c6492;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom:1px dotted #0c6492;
 }
 
 a:hover {
     color: #187db1;
     text-decoration: none;
+    border-bottom:1px solid #0c6492;
 }
 
 nav a {
