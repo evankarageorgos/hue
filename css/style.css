@@ -16,10 +16,16 @@ p {
 
 a {
   color: #0c6492;
+    text-decoration: underline;
 }
 
 a:hover {
     color: #187db1;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 select {
