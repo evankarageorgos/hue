@@ -6,16 +6,18 @@
 Some of the gradients use blending modes, support for which is limited in [some browsers](http://caniuse.com/#feat=css-backgroundblendmode).
 
 ## How to use
-1. Download the stylesheet `hue.css`, add it to your project folder structure, then call it in the `<head>` section of your document.
+Download the stylesheet `hue.css`, add it to your project folder structure, then call it in the `<head>` section of your document.
 
 ```
 html
   <head>
     <link rel="stylesheet" href="hue.css">
   </head>
-  ```
+```
 
-2. Add to any element the class corresponding to the backdrop you want to add. You can select any of the available classes below:
+or you can also compile any of the individual classes, from the `partials` list folder with the SCSS versions.
+
+Add to any element the class corresponding to the backdrop you want to add. You can select any of the available classes below:
 
 * `theBridge`
 * `deepFocus`

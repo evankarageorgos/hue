@@ -1,0 +1,8 @@
+/* 42-Silver Surfer: */
+.silverSurfer {
+background-image: linear-gradient(to bottom, #BCBCBC 0%, #D9D9D9 26%, #EFEFEF 49%, #E0E0E0 74%, #D3D3D3 100%),
+linear-gradient(to bottom, #BCBCBC 0%, #D9D9D9 26%, #EFEFEF 49%, #E0E0E0 74%, #D3D3D3 100%),
+linear-gradient(to bottom, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 150%),
+radial-gradient(at 50% 59%, rgba(255,255,255,0.30) 66%, rgba(0,0,0,0.30) 200%);
+background-blend-mode: multiply,multiply,screen;
+}

@@ -1,0 +1,8 @@
+/* 44-Grey Hound: */
+.greyHound {
+background: #989898;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%),
+radial-gradient(at 50% -100%, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 270%),
+radial-gradient(at 50% 2%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+background-blend-mode: normal,multiply,multiply;
+}

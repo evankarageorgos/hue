@@ -1,0 +1,9 @@
+/* 32-Floating Dream: */
+.floatingDream {
+background: #C2C2C2;
+background-image: radial-gradient(at 50% 50%, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.50) 260%),
+radial-gradient(at 61% 50%, rgba(255,255,255,0.30) 55%, rgba(0,0,0,0.50) 150%),
+linear-gradient(to bottom left, rgba(255,255,255,0.25) 3%, rgba(0,0,0,0.25) 100%),
+linear-gradient(-200deg, rgba(255,255,255,0.50) 13%, rgba(0,0,0,0.80) 100%);
+background-blend-mode: normal,screen,normal,multiply;
+}
