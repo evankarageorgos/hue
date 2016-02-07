@@ -2,6 +2,8 @@
 
 *A huge pack of 49 photorealistic gradients that you can use as content backdrops.*
 
+[View demo »](http://evankarageorgos.github.io/hue/) 
+
 ## Browser support
 Some of the gradients use blending modes, support for which is limited in [some browsers](http://caniuse.com/#feat=css-backgroundblendmode).
 
