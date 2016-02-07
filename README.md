@@ -21,7 +21,7 @@ or you can also compile any of the individual classes, from the `partials` list 
 
 Add to any element the class corresponding to the backdrop you want to add. You can select any of the available classes below:
 
-* [`theBridge`](/partials/thebridge.scss)
+* [`theBridge`](/partials/_thebridge.scss)
 * `deepFocus`
 * `blueHour`
 * `darkAmber`
