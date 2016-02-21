@@ -68,3 +68,32 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.6);
     border: none;
 }
+
+.cover {
+    -webkit-animation: moveit 5s infinite;
+    animation: moveit 2s;
+    /* IE 10+, Fx 29+ */
+}
+
+
+/*
+* ==== Animation ====
+*/
+
+@-webkit-keyframes moveit {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveit {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
