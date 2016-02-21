@@ -1,79 +1,70 @@
-:root {
-  font-size: 16px;
-}
-
 body {
-  color: #252525;
-  text-shadow: 0px 2px 35px rgba(100,100,100,0.9);
+    color: #252525;
+    text-shadow: 0px 2px 35px rgba(100, 100, 100, 0.9);
 }
 
 p {
-  text-shadow: none;
-  font-size: 1rem;
-  line-height:1.65;
-  padding-bottom:1rem;
+    text-shadow: none;
+    font-size: 1em;
+    line-height: 1.65;
+    padding-bottom: 1em;
 }
 
 a {
-  color: #0c6492;
-  text-decoration: none;
-  border-bottom:1px dotted #0c6492;
+    color: #0c6492;
+    text-decoration: none;
+    border-bottom: 1px dotted #0c6492;
 }
 
 a:hover {
-  color: #187db1;
-  text-decoration: none;
-  border-bottom:1px solid #0c6492;
+    color: #187db1;
+    text-decoration: none;
+    border-bottom: 1px solid #0c6492;
 }
 
 nav a {
-  text-decoration: none;
-  border: none;
+    text-decoration: none;
+    border: none;
 }
 
 nav a:hover {
-  border: none;
-}
-
-select {
-    font-size: 1.5rem;
+    border: none;
 }
 
 .notes {
-  background: rgba(255,255,255,0.8);
-  box-shadow: 0 0 125px rgba(0,0,0,0.25);
-  padding: 1em;
-
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 125px rgba(0, 0, 0, 0.25);
+    padding: 1em;
 }
 
 .notes h3 {
-    font-size: calc(1.5rem - 5%);
+    font-size: 1.4em;
 }
 
 .notes h4 {
-    font-size: calc(1.2rem - 5%);
+    font-size: 1.2em;
 }
 
 .notes p {
-    font-size: calc(1rem - 10%);
+    font-size: 1em;
     width: 50%;
     margin: auto;
 }
 
 .site-wrapper {
-    background-image: url("../img/iphone.png");
+    /*    background-image: url("../img/iphone.png");*/
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: 2% 100%;
 }
 
 .myfooter {
-  background: rgba(255,255,255,0.2);
-  box-shadow: 0 0 125px rgba(0,0,0,0.25);
-  color: #252525;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 125px rgba(0, 0, 0, 0.25);
+    color: #252525;
 }
 
 .navbar-inverse {
-    background-color: rgba(0,0,0,0.6);
-    border:none;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
 }
