@@ -1,6 +1,18 @@
+/*
+* ==== Google fonts ====
+*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,300);
+
+
+
 body {
     color: #252525;
-    text-shadow: 0px 2px 35px rgba(100, 100, 100, 0.9);
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.6em;
+    line-height: 1.6;
 }
 
 p {
@@ -10,21 +22,37 @@ p {
     padding-bottom: 1em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 600;
+}
+
 a {
-    color: #0c6492;
+    color: #BED4E0;
     text-decoration: none;
-    border-bottom: 1px dotted #0c6492;
+    border-bottom: 1px dotted #BED4E0;
+    transition: all 0.25s;
 }
 
 a:hover {
-    color: #187db1;
+    color: #8EB4C7;
     text-decoration: none;
-    border-bottom: 1px solid #0c6492;
+    border-bottom: none;
+}
+
+.bright-text {
+    color: #fff;
+}
+
+.dark-text {
+    color: #252525;
 }
 
 nav a {
     text-decoration: none;
     border: none;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 nav a:hover {
@@ -32,9 +60,13 @@ nav a:hover {
 }
 
 .notes {
-    background: rgba(255, 255, 255, 0.8);
+    /*background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 125px rgba(0, 0, 0, 0.25);
+    padding: 1em;*/
+    background: rgba(29, 29, 29, 0.8);
     box-shadow: 0 0 125px rgba(0, 0, 0, 0.25);
     padding: 1em;
+    color: #fff;
 }
 
 .notes h3 {
@@ -58,29 +90,16 @@ nav a:hover {
     background-position: 2% 100%;
 }
 
-.myfooter {
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 125px rgba(0, 0, 0, 0.25);
-    color: #252525;
-}
-
 .navbar-inverse {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     border: none;
 }
-
-.cover {
-    -webkit-animation: moveit 5s infinite;
-    animation: moveit 2s;
-    /* IE 10+, Fx 29+ */
-}
-
 
 /*
 * ==== Animation ====
 */
 
-@-webkit-keyframes moveit {
+@-webkit-keyframes animateit {
     0% {
         opacity: 0;
     }
@@ -89,11 +108,61 @@ nav a:hover {
     }
 }
 
-@keyframes moveit {
+@keyframes animateit {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
+}
+
+.animateme {
+    -webkit-animation: animateit 5s infinite;
+    animation: animateit 2s;
+    /* IE 10+, Fx 29+ */
+}
+
+/*
+* ==== GRID PAGE TILES ====
+*/
+
+.child {
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 5px 25px rgba(0, 0, 0, 0.4);
+    line-height: 100px;
+    font-size: 1.5em;
+    padding: 40px 0 10px 0;
+    transition: all 0.25s;
+}
+
+.child:hover {
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.4), inset 0 1px 4px rgba(0,0,0,0.7);
+}
+
+.title {
+    margin: 40px 0 40px 0;
+}
+
+.child-number {
+    font-size: 1.2em;
+}
+
+.link {
+    margin-top: 0px;
+    padding: 8px 12px 12px 12px;
+    background-color: rgba(0,0,0,0.7);
+    border-bottom: none;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.7em;
+}
+
+/*
+* ==== FOOTER ====
+*/
+
+.myfooter {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0 0 0;
 }
