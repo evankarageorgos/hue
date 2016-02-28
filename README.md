@@ -8,7 +8,7 @@
 Some of the gradients use blending modes, support for which is limited in [some browsers](http://caniuse.com/#feat=css-backgroundblendmode).
 
 ## How to use
-Download the stylesheet `hue.css`, add it to your project folder structure, then call it in the `<head>` section of your document.
+Download the stylesheet [`hue.css`](https://github.com/evankarageorgos/hue/blob/master/hue.css), add it to your project folder structure, then call it in the `<head>` section of your document.
 
 ```
 html
