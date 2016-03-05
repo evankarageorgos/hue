@@ -66,6 +66,7 @@ Add to any element the class corresponding to the backdrop you want to add. You 
 * [`greyHound`](/partials/_greyhound.scss)
 * [`returnToAir`](/partials/_returntoair.scss)
 * [`graphite`](/partials/_graphite.scss)
+* [`unicorn`](/partials/_unicorn.scss)
 * [`cosmos`](/partials/_cosmos.scss)
 * [`ice`](/partials/_ice.scss)
 * [`comet`](/partials/_comet.scss)
