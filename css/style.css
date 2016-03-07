@@ -132,6 +132,8 @@ nav a:hover {
     -webkit-animation: animateit 5s infinite;
     animation: animateit 2s;
     /* IE 10+, Fx 29+ */
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 
