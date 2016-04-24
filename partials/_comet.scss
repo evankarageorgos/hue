@@ -1,7 +1,9 @@
 /* 49-Comet: */
 .comet {
-background: #646770;
-background-image: linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 100%),
-radial-gradient(at 50% 87%, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-background-blend-mode: multiply,multiply;
+    background-color: #646770;
+    background-image: 
+        linear-gradient(0deg, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 100%),
+        radial-gradient(at 50% 87%, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    
+    background-blend-mode: multiply,normal;
 }

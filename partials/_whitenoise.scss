@@ -1,6 +1,8 @@
 /* 41-White Noise: */
 .whiteNoise {
-background: #E1E6EC;
-background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 200%);
-background-blend-mode: color-burn;
+    background-color: #E1E6EC;
+    background-image: 
+        linear-gradient(-180deg, #E1E6EC 2%, #F0F4F7 96%),
+        radial-gradient(at 50% 100%, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.5) 200%);
+    background-blend-mode: normal, color-burn;
 }

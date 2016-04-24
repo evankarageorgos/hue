@@ -1,6 +1,9 @@
 /* 47-Cosmos: */
 .cosmos {
-background: #797572;
-background-image: linear-gradient(to bottom, rgba(255,255,255,0.20) 0%, #000000 200%), linear-gradient(72deg, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.25) 100%), radial-gradient(47% 52%, rgba(255,255,255,0.50) 0%, rgba(21,24,32,0.60) 180%);
-background-blend-mode: multiply,multiply,multiply;
+    background-color: #797572;
+    background-image: 
+        linear-gradient(-173deg, rgba(255,255,255,0.20) 0%, #000000 100%),
+        linear-gradient(72deg, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.25) 100%),
+        radial-gradient(47% 102%, rgba(255,255,255,0.50) 0%, rgba(21,24,32,0.60) 120%);
+    background-blend-mode: multiply;
 }

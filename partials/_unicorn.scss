@@ -1,6 +1,8 @@
 /* 18-Unicorn: */
 
 .unicorn {
-    background-image: linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%), linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%);
-    background-blend-mode: color-burn;
+    background: 
+        linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%), 
+        linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%);
+    background-blend-mode: normal,color-burn;
 }

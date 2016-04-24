@@ -1,7 +1,10 @@
-/* 16-Back to Alaska: */
-
-.backToAlaska {
-    background: #DFE3E4;
-    background-image: radial-gradient(55% 330%, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 550%), linear-gradient(to top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.6) 50%), linear-gradient(to top right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 120%);
-    background-blend-mode: color-burn, screen, color-burn;
-}
+    /* 3-Back to Alaska: */
+    
+    .backToAlaska {
+        background: 
+            radial-gradient(55% 330%, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 550%), 
+            linear-gradient(to top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.6) 50%), 
+            linear-gradient(to top right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 120%);
+        background-color: #DFE3E4;
+        background-blend-mode: color-burn, screen, color-burn;
+    }
