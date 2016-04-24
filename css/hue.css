@@ -87,8 +87,8 @@
 
 /* 14-The Dementor: */
 .dementor {
-  background-image: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 60%, #1C1C1C 100%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
-  background-image: linear-gradient(to bottom, #323232 0%, #3F3F3F 60%, #1C1C1C 100%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
   background-blend-mode: multiply; }
 
 /* 15-Under the Earth: */
