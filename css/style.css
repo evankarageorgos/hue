@@ -105,6 +105,16 @@ nav a:hover {
     border: none;
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #252525;
+}
+
 
 /*
 * ==== Animation ====
