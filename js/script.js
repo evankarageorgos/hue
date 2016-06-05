@@ -13,7 +13,7 @@
 
 $(document).ready(function() {
 
-var selectedScheme = 'theBridge';
+var selectedScheme = 'blueHour';
 
 $('#color_scheme').change(function(){
     $('body').removeClass(selectedScheme).addClass($(this).val());
