@@ -1,0 +1,16 @@
+
+# Created by https://www.gitignore.io/api/codekit,sass
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+/min
+
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+
+### Sass ###
+.sass-cache/
+*.css.map
